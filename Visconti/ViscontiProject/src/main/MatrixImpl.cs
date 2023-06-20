@@ -6,7 +6,7 @@ public class MatrixImpl : IMatrix
 {
     public int Width { get; }
     public int Height { get; }
-    private List<PixelImpl> Pixels { get;}
+    public List<PixelImpl> Pixels { get;}
     public MatrixImpl(int width, int height)
     {
         Width = width;
