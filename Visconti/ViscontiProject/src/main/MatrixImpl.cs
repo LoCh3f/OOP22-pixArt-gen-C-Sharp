@@ -1,14 +1,32 @@
-﻿namespace DefaultNamespace;
+﻿using System.Drawing;
 
-public class MatrixImpl implements Matrix
+namespace ViscontiProject.main;
+
+public class MatrixImpl : IMatrix
 {
-    public int _width { get; }
-    public int _height { get; }
-    public Pixel[,] _pixels { get; set; }
-    public MatrixImpl(int width, int height)
+    public int Width { get; }
+    public int Height { get; }
+    private List<PixelImpl> Pixels { get;}
+    protected MatrixImpl(int width, int height)
     {
-        _width = width;
-        _height = height;
-        _pixels = new Pixel[width, height];
+        Width = width;
+        Height = height;
+        Pixels = new List<PixelImpl>();
+        for (int i = 0; i < width; i++)
+        {
+            for (int j = 0; j < height; j++)
+            {
+                
+                Pixels.Add(new PixelImpl(i,j,Color.White));
+            }
+        }
     }
+
+  
+    public void UpdatePixel(Action<PixelImpl> updater, PixelImpl pixel)
+    {
+        this.Pixels.ForEach(updater);
+    }
+
+
 }

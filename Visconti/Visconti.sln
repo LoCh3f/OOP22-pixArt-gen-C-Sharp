@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViscontiProject", "ViscontiProject\ViscontiProject.csproj", "{A80C203C-3D5D-47DC-9D9B-8E69FB880EC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestVisconti", "TestVisconti\TestVisconti.csproj", "{674A5D86-D5F9-4370-9703-48C2EA904593}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{A80C203C-3D5D-47DC-9D9B-8E69FB880EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A80C203C-3D5D-47DC-9D9B-8E69FB880EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A80C203C-3D5D-47DC-9D9B-8E69FB880EC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674A5D86-D5F9-4370-9703-48C2EA904593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674A5D86-D5F9-4370-9703-48C2EA904593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674A5D86-D5F9-4370-9703-48C2EA904593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674A5D86-D5F9-4370-9703-48C2EA904593}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

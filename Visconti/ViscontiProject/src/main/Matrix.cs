@@ -1,6 +1,6 @@
-﻿namespace DefaultNamespace;
+﻿namespace ViscontiProject.main;
 
-public interface Matrix
+public interface IMatrix
 {
-    
+    void UpdatePixel(Action<PixelImpl> updater, PixelImpl pixel);
 }
