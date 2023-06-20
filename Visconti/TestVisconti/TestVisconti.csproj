@@ -20,4 +20,8 @@
       <ProjectReference Include="..\ViscontiProject\ViscontiProject.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="src\test\" />
+    </ItemGroup>
+
 </Project>

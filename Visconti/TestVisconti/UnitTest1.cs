@@ -2,6 +2,7 @@ namespace TestVisconti;
 
 public class Tests
 {
+    
     [SetUp]
     public void Setup()
     {

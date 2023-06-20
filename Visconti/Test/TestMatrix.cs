@@ -1,4 +1,4 @@
-﻿namespace TestVisconti.test;
+﻿namespace TestVisconti;
 
 public class TestMatrix
 {
