@@ -1,0 +1,24 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=13e01ef8_002D5456_002D482c_002D82ff_002D1979eafd8196/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="BuilderTest #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::12EFA604-63E1-4B19-BA49-433E7BCEF999::net7.0::Test.TestGame.BuilderTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8caa4cc4_002D8a32_002D42d0_002D858e_002De87ac0d0a477/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BuilderTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::12EFA604-63E1-4B19-BA49-433E7BCEF999::net7.0::Test.TestGame.BuilderTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c3a0859f_002D29da_002D4968_002Daa02_002D5fa36df79ee1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestGame" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::12EFA604-63E1-4B19-BA49-433E7BCEF999::net7.0::Test.TestGame&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cef50036_002D3547_002D498e_002D85b9_002Da9b67a8fb582/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from TestGame.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;ProjectFile&gt;12EFA604-63E1-4B19-BA49-433E7BCEF999/f:TestGame.cs&lt;/ProjectFile&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fc9d1bd6_002D15b1_002D4a4d_002Dbc47_002Da556ed1bff8e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BuilderTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::12EFA604-63E1-4B19-BA49-433E7BCEF999::net7.0::Test.TestGame.BuilderTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
