@@ -1,6 +1,6 @@
 namespace RicciProject.main;
 
-public class GameImpl : Game
+public class GameImpl : IGame
 {
     public int _gameType { get; }
     public int _gameTimer { get; }

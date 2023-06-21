@@ -1,23 +1,23 @@
 namespace RicciProject.main;
 
-public class GameBuilderImpl : GameBuilder
+public class GameBuilderImpl : IGameBuilder
 {
     private int _gameType;
     private int _gameTimer;
 
-    public GameBuilder GameType(int _gameType)
+    public IGameBuilder GameType(int _gameType)
     {
         this._gameType = _gameType;
         return this;
     }
 
-    public GameBuilder GameTimer(int _gameTimer)
+    public IGameBuilder GameTimer(int _gameTimer)
     {
         this._gameTimer = _gameTimer;
         return this;
     }
     
-    public Game Build()
+    public IGame Build()
     {
         return new GameImpl(this._gameType, this._gameTimer);
     }
