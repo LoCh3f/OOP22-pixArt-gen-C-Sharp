@@ -6130,19 +6130,19 @@
     ]
   },
   "packageFolders": {
-    "/home/ale/.nuget/packages/": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ale/Scrivania/Uni/OOP/C#/OOP/OOP22-pixArt-gen-C-Sharp/PixArt/PixArtTest/PixArtTest.csproj",
+      "projectUniqueName": "C:\\Users\\user\\RiderProjects\\OOP22-pixArt-gen-C-Sharp\\PixArt\\PixArtTest\\PixArtTest.csproj",
       "projectName": "PixArtTest",
-      "projectPath": "/home/ale/Scrivania/Uni/OOP/C#/OOP/OOP22-pixArt-gen-C-Sharp/PixArt/PixArtTest/PixArtTest.csproj",
-      "packagesPath": "/home/ale/.nuget/packages/",
-      "outputPath": "/home/ale/Scrivania/Uni/OOP/C#/OOP/OOP22-pixArt-gen-C-Sharp/PixArt/PixArtTest/obj/",
+      "projectPath": "C:\\Users\\user\\RiderProjects\\OOP22-pixArt-gen-C-Sharp\\PixArt\\PixArtTest\\PixArtTest.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\RiderProjects\\OOP22-pixArt-gen-C-Sharp\\PixArt\\PixArtTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/ale/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -6154,8 +6154,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/ale/Scrivania/Uni/OOP/C#/OOP/OOP22-pixArt-gen-C-Sharp/PixArt/PixArtMain/PixArtMain.csproj": {
-              "projectPath": "/home/ale/Scrivania/Uni/OOP/C#/OOP/OOP22-pixArt-gen-C-Sharp/PixArt/PixArtMain/PixArtMain.csproj"
+            "C:\\Users\\user\\RiderProjects\\OOP22-pixArt-gen-C-Sharp\\PixArt\\PixArtMain\\PixArtMain.csproj": {
+              "projectPath": "C:\\Users\\user\\RiderProjects\\OOP22-pixArt-gen-C-Sharp\\PixArt\\PixArtMain\\PixArtMain.csproj"
             }
           }
         }
@@ -6207,7 +6207,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\user\\.dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
