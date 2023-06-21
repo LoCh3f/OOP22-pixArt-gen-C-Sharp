@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System.Collections.Generic;
+using System.Drawing;
 using PixArtMain.main.model.matrix;
 using PixArtMain.main.model.tools.DrawingTools;
 
