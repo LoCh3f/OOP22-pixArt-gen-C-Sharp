@@ -1,4 +1,6 @@
 ﻿
+namespace PixArtMain.main.model.Alexandru_Eduard.historyframe;
+
 public class HistoryFrameImpl
 {
     private const String DefPath = "";

@@ -1,24 +1,34 @@
 ﻿
+using PixArtMain.main.model.Alexandru_Eduard.historyframe;
 using PixArtMain.main.model.matrix;
 
-namespace PixArtMain.main.model.project;
+namespace PixArtMain.main.model.Alexandru_Eduard.project;
 
 public class ProjectImpl : IProject
 {
-    private String ProjectName { get; }
-    private String Path { get; }
-    private String FileType { get; }
-    private List<IMatrix> _frames = new List<IMatrix>();
-    private List<HistoryFrameImpl> _historyFrames = new List<HistoryFrameImpl>();
+    public ProjectImpl(string projectName, string path, string fileType)
+    {
+        ProjectName = projectName;
+        Path = path;
+        FileType = fileType;
+        Frames = new List<IMatrix>();
+        HistoryFrames = new List<HistoryFrameImpl>();
+    }
+
+    public string ProjectName { get; }
+    public string Path { get; }
+    public string FileType { get; }
+    public List<IMatrix> Frames { get; }
+    public List<HistoryFrameImpl> HistoryFrames { get; }
 
 
     public void AddNewFrame()
     {
-        this._frames.Add(new MatrixImpl(16, 16));
+        this.Frames.Add(new MatrixImpl(16, 16));
     }
 
     public void AddNewHistoryFrame(int index)
     {
-        this._historyFrames.Add(new HistoryFrameImpl());
+        this.HistoryFrames.Add(new HistoryFrameImpl());
     }
 }

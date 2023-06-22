@@ -1,4 +1,4 @@
-﻿namespace PixArtMain.main.model.project;
+﻿namespace PixArtMain.main.model.Alexandru_Eduard.project;
 
 public interface IProject
 {
