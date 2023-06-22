@@ -1,8 +1,8 @@
 using System.Drawing;
-using PixArtMain.main.model.tools;
-using PixArtMain.main.model.tools.DrawingTools;
+using PixArtMain.main.model.Micolucci.tools;
+using PixArtMain.main.model.Micolucci.tools.DrawingTools;
 
-namespace PixArtTest.model;
+namespace PixArtTest.model.Micolucci;
 
 public class AbstractDrawingToolTest
 {
