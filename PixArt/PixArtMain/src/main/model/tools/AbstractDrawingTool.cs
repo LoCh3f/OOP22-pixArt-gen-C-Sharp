@@ -16,8 +16,8 @@ public abstract class AbstractDrawingTool : AbstractTool
     public override HashSet<PixelImpl> UpdateGrid(PixelImpl pixel, HashSet<PixelImpl> frame)
     {
         HashSet<PixelImpl> newPixSet = new HashSet<PixelImpl>();
-        int oppositePixX = CalculatePosition(pixel.PosX, GetToolSize(), base.GetFrameSize(frame));
-        int oppositePixY = CalculatePosition(pixel.PosY, GetToolSize(), base.GetFrameSize(frame));
+        int oppositePixX = CalculatePosition(pixel.PosX, GetToolSize(), GetFrameSize(frame));
+        int oppositePixY = CalculatePosition(pixel.PosY, GetToolSize(), GetFrameSize(frame));
         
         foreach (int x in Range(pixel.PosX, oppositePixX))
         {

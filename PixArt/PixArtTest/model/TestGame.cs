@@ -9,7 +9,7 @@ public class TestGame
     {
         IGame _game = new GameBuilderImpl().GameTimer(100).GameType(1).Build();
 
-        Assert.Equal(100, _game._gameTimer);
-        Assert.Equal(1, _game._gameType);
+        Assert.Equal(100, _game.GameTimer);
+        Assert.Equal(1, _game.GameType);
     }
 }

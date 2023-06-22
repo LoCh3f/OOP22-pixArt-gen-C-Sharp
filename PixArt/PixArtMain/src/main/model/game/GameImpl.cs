@@ -2,12 +2,12 @@ namespace PixArtMain.main.model.game;
 
 public class GameImpl : IGame
 {
-    public int _gameType { get; }
-    public int _gameTimer { get; }
+    public int GameType { get; }
+    public int GameTimer { get; }
 
     public GameImpl(int _gameType, int _gameTimer)
     {
-        this._gameType = _gameType;
-        this._gameTimer = _gameTimer;
+        GameType = _gameType;
+        GameTimer = _gameTimer;
     }
 }
