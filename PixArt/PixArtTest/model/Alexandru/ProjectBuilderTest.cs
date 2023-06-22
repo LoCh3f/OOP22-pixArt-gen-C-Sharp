@@ -4,6 +4,7 @@ namespace PixArtTest.model.Alexandru_Eduard;
 
 public class ProjectBuilderTest
 {
+    [Fact]
     public void BuilderTest()
     {
         IProject p = new ProjectBuilderImpl().ProjectName("primo").Path("/home").FileType(".png").Build();

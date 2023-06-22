@@ -5,6 +5,7 @@ namespace PixArtTest.model.Alexandru_Eduard;
 
 public class HistoryFrameTest
 {
+    [Fact]
     public void ConstructorTest()
     {
         HistoryFrameImpl frame1 = new HistoryFrameImpl();

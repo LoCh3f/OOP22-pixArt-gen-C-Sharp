@@ -8,7 +8,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="src\main\model\Alexandru Eduard\" />
+      <Folder Include="src\main\model\Alexandru\" />
+      <Folder Include="src\main\model\Ricci\" />
+      <Folder Include="src\main\model\Visconti\" />
     </ItemGroup>
 
 </Project>
