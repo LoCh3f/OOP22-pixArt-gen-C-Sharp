@@ -2,12 +2,20 @@
 
 public class HistoryFrameImpl : IHistoryFrame
 {
-    private String _imagePath { get; }
-    private int _animationDuration { get; }
+    private const String DefPath = "";
+    private const int DefDelay = 100;
+    private String ImagePath { get; }
+    private int AnimationDuration { get; }
 
-    public HistoryFrameImpl(String _imagePath, int _animationDuration)
+    public HistoryFrameImpl(String imagePath, int animationDuration)
     {
-        this._imagePath = _imagePath;
-        this._animationDuration = _animationDuration;
+        this.ImagePath = imagePath;
+        this.AnimationDuration = animationDuration;
+    }
+    
+    public HistoryFrameImpl()
+    {
+        this.ImagePath = DefPath;
+        this.AnimationDuration = DefDelay;
     }
 }

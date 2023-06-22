@@ -1,6 +1,8 @@
 ﻿namespace PixArtMain.main.model.project;
 
-public interface Project
+public interface IProject
 {
-    
+    void AddNewFrame();
+
+    void AddNewHistoryFrame(int index);
 }
