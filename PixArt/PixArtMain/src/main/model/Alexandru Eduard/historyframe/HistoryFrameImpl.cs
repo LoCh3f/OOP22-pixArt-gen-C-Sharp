@@ -1,11 +1,10 @@
-﻿namespace PixArtMain.main.model.historyframe;
-
-public class HistoryFrameImpl : IHistoryFrame
+﻿
+public class HistoryFrameImpl
 {
     private const String DefPath = "";
     private const int DefDelay = 100;
-    private String ImagePath { get; }
-    private int AnimationDuration { get; }
+    public String ImagePath { get; }
+    public int AnimationDuration { get; }
 
     public HistoryFrameImpl(String imagePath, int animationDuration)
     {

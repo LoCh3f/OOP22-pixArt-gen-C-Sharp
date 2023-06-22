@@ -1,5 +1,4 @@
 ﻿
-using PixArtMain.main.model.historyframe;
 using PixArtMain.main.model.matrix;
 
 namespace PixArtMain.main.model.project;
@@ -10,7 +9,7 @@ public class ProjectImpl : IProject
     private String Path { get; }
     private String FileType { get; }
     private List<IMatrix> _frames = new List<IMatrix>();
-    private List<IHistoryFrame> _historyFrames = new List<IHistoryFrame>();
+    private List<HistoryFrameImpl> _historyFrames = new List<HistoryFrameImpl>();
 
 
     public void AddNewFrame()
